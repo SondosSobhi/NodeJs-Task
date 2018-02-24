@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <h1>Checout</h1>
+        <h3>Total: {{total}}$</h3>
+        <form action="/checkout" method="post" id="checkout-form">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="form-group>">
+                        <label for="name">Name</label>
+                        <input class="form-control" name="name" type="text">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-group>">
+                        <label for="card-name">Card Holder Name</label>
+                        <input class="form-control" name="card-name" type="text">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-group>">
+                        <label for="card-number">Credit Card Number</label>
+                        <input class="form-control" name="card-number" type="text">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="form-group>">
+                                <label for="card-expiry-month">Expiration Month</label>
+                                <input class="form-control" name="card-expiry-month" type="text">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="form-group>">
+                                <label for="card-expiry-year">Expiration Year</label>
+                                <input class="form-control" name="card-expiry-year" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-group>">
+                        <label for="card-cvc">CVC</label>
+                        <input class="form-control" name="address" type="text">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-success">Buy now</button>
+        </form>
+    </div>
+</div>
